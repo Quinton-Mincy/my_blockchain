@@ -88,8 +88,6 @@ void remove_block(char* bid, int* flags, node** head){
         *flags |= RMB;
         synchronize_nodes(bid, flags, head);
         return;
-    }else{
-        block_chain = block_chain->next;
     }
     while( block_chain->next != NULL){
         if( strcmp(block_chain->next->bid, bid) == 0){
