@@ -28,6 +28,7 @@ so all nodes have an identical copy of the blockchain. The quit command exits th
 
 ## How It Works
 Below is a screenshot of a creation of a new blockchain.
+
 ![Screen Shot 2022-12-01 at 3 14 24 PM](https://user-images.githubusercontent.com/73136662/205150610-b513921d-d9a3-4941-9778-8dbd7bc75393.png)
 
 As you can see, commands such as add node, add block, and sync are used to create the blockchain. After exiting the program, and saving it, you can see that the nodes, blocks and their number are saved to the file
@@ -41,6 +42,7 @@ we can see that the blocks were only added to the first node, the genesis node. 
 The sync command then copies the valid blockchain that the genesis node has to the other nodes on the chain.
 
 Rolling the blockchain we just created back up, we will explore the other commands that are at the users disposal.
+
 ![Screen Shot 2022-12-01 at 3 34 44 PM](https://user-images.githubusercontent.com/73136662/205154057-25217d36-2fa8-4b26-82b6-aaafa0c6c948.png)
 
 We can see by printing the existing blockchain, the file that was created before was parsed through and reverted back to its linked list form (including the node and block counts). Again we see that adding a block only takes
