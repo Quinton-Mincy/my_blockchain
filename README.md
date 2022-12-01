@@ -53,7 +53,7 @@ block on any node on the chain that does not exist on the genesis node. We also 
 A few improvements that would benefit this application, besides a GUI perhaps, are as follows. Firstly, a more robust character set that the user can use, namely special characters such as '@' and '.' so emails can easily be added to the 
 blockchain. Furthering the idea of an email list, adding some sort of verification service to the program as to ensure that users attempting to join the blockchain meet some sort of criteria would be a and interesting feature. In this example,
 a more complex authentication system would be in order (perhaps consulting more than just the genesis node for verication). Another major fix that can be implemented immediatley is to load the nodes (structs) of the linked list directly to the 
-desired file. Instead of extracting the nids and bids (node and block ID's) from them and creating a text, csv-like, file, parsing the file would be done much more cleanly.
+desired file. Instead of extracting the nids and bids (node and block ID's) from them and creating a text, csv-like, file, parsing the file would be done much more cleanly. Lastly, it would be helpful to the user to be able to add multiple nodes and blocks in a single command. Currently, only one node/block can be added at a time.
 
 ### The Core Team
 * [Quinton MINCY](//github.com/Quinton-Mincy) - Developer
