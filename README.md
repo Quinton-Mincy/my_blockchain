@@ -56,7 +56,7 @@ a more complex authentication system would be in order (perhaps consulting more 
 desired file. Instead of extracting the nids and bids (node and block ID's) from them and creating a text, csv-like, file, parsing the file would be done much more cleanly. Lastly, it would be helpful to the user to be able to add multiple nodes and blocks in a single command. Currently, only one node/block can be added at a time.
 
 ### The Core Team
-* [Quinton MINCY](//github.com/Quinton-Mincy) - Developer
+* [Quinton Mincy](//github.com/Quinton-Mincy) - Developer
 
 <span><i>Made at <a href='https://qwasar.io'>Qwasar Silicon Valley</a></i></span>
 <span><img alt='Qwasar Silicon Valley Logo' src='https://storage.googleapis.com/qwasar-public/qwasar-logo_50x50.png' width='20px'></span>
